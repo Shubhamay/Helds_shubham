@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/stylebackground"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="#438FCF"
+    >
+
+    <ImageView
+        android:layout_marginLeft="21px"
+        android:layout_marginTop="62dp"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:src="@drawable/retake" />
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="21px"
+        android:layout_marginTop="62dp"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:src="@drawable/post" />
+</RelativeLayout>    
+
+<RelativeLayout
+    android:layout_marginTop="158px"
+    android:layout_width="match_parent"
+    android:layout_height="798px"
+    android:background="#2E94D1"
+    android:layout_marginLeft="8px"
+    android:layout_marginRight="8px"
+    >
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p"
+        >
+        <ImageView
+            android:id="@+id/pro" 
+            android:src="@drawable/scarlets"
+            android:layout_width="86px"
+            android:layout_height="86px"
+            />
+        <LinearLayout 
+            android:layout_toRightOf="@+id/pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            
+              <TextView
+	            android:id="@+id/custom_font"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="left"
+	            android:textColor="@android:color/white"
+	            android:text="Scarlettjohansson: "
+	            android:textSize="17px"
+	            />
+                <TextView
+	            android:id="@+id/custom_fonts"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="left"
+	            android:textColor="@android:color/white"
+	            android:text="There is a theory which states that if ever anyone discovers exactly what the Universe."
+	            android:textSize="16px"
+	            />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_marginTop="86px"
+        android:layout_width="fill_parent"
+        android:layout_height="626px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/scarlet" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
